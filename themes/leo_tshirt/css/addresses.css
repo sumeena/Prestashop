@@ -1,0 +1,88 @@
+/* adresses */
+div.addresses {
+	padding: 0.6em;
+	position: relative;
+	width: 99%;
+}
+div.addresses h3 { margin: 0 }
+div.addresses p.checkbox input {
+	margin-top: 0!important;
+	margin-top: -3px
+}
+div.addresses ul.item { clear: both }
+ul.address {
+	background-color: white;
+	float: left;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-left: 0.25em;
+	padding-bottom: 0.6em;
+	margin-bottom: 1em;
+	position: relative;
+	width: 336px;
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 0 0;
+}
+ul.address.full_width { width: 536px }
+ul.address li {
+	padding-left: 1.4em;
+	margin-top: 0.6em
+}
+li.address_title {
+	margin-top: 0!important;
+	background-color: #000;
+	color: #fff;
+	font:12px/27px 'Arvo'
+}
+ul.item li.address_title { background: #000; }
+ul.alternate_item li.address_title {background: #000; }
+ul.full_width li.address_title { background-image: url('../img/address_alias_full_width.gif') }
+li.address_name,
+li.address_firstname,
+li.address_lastname,
+ li.address_update a,
+ li.address_delete a { color: #1576A8 }
+li.address_name,
+li.address_firstname,
+li.address_lastname,
+ li.address_company { font-weight: bold }
+
+span.address_name,
+span.address_firstname,
+span.address_lastname,
+span.address_update a,
+span.address_delete a { color: #1576A8 }
+span.address_name,
+span.address_firstname,
+span.address_lastname,
+span.address_company { font-weight: bold }
+#center_column .address_add { padding: 1em 0 }
+.delivery_options_address h3 {
+    background: #1576A8;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 10px 10px 10px 15px;
+}
+#order .delivery_option_radio, #order-opc .delivery_option_radio {
+    float: left;
+    margin: 21px 12px;
+}
+
+#order .delivery_option label > table.resume, #order-opc .delivery_option label > table.resume {
+    height: 65px;
+}
+#order .delivery_option label > table.resume td, #order-opc .delivery_option label > table.resume td 
+{
+    padding: 0 8px;
+}
+#order .delivery_options_address .delivery_option_logo, #order .delivery_option_carrier .delivery_option_logo, #order-opc .delivery_options_address .delivery_option_logo 
+{
+    padding-left: 10px;
+    width: 160px;
+}
+#order .delivery_option label > table.resume td + td, #order-opc .delivery_option label > table.resume td + td {
+    width: 45%;
+}
+.delivery_options{border:1px solid #999}
+table.delivery_option_carrier{width:100%;padding-left:16%;border-top:1px solid #999}

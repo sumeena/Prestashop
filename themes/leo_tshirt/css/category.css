@@ -1,0 +1,14 @@
+/* category.tpl */
+body#category #subcategories li { height: 136px; width: 108px; margin-right: 3px }
+body#category div#subcategories .inline_list a img { display: inline }
+#category img#categoryImage { margin-top: 1em }
+.content_sortPagiBar{
+  background: url("../img/default/bg-current.png") repeat-x scroll 0 0 transparent;
+  height: 40px;
+  clear:both;
+}
+.category-product-count{
+	float: left;
+    font: italic 14px/40px 'Arvo';
+    padding-left: 15px;
+}

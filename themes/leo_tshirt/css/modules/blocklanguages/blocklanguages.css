@@ -1,0 +1,60 @@
+/* block top languages */
+#header_right label {
+    float: left;
+    font: 12px/1.7em 'Arvo';
+    margin: 0;
+    padding-right: 5px;
+}
+#header_right #languages_block_top {
+	background: url(img/bg-current.png) repeat-x scroll 0 0 transparent;
+    padding: 6px 5px 7px 10px;
+    position: absolute;
+    right: 0;
+    top: 110px;
+	z-index:1;
+}
+#header_right #languages_block_top p {
+	clear: left;
+	padding-right:15px;
+	font: 11px Arial,Verdana,sans-serif;
+	color: #ccc;
+	text-align: right;
+	background: url(img/arrow3.png) no-repeat scroll right 5px transparent;
+}
+#languages_block_top ul#first-languages li {
+	float: left;
+	margin-right: 3px
+}
+#languages_block_top ul#first-languages li.selected_language {
+	float: left;
+}
+/*languages with jquery*/
+#countries {
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+	float:left;
+}
+#countries p {
+	position: relative;
+	top: 0;
+	padding: 0;
+}
+#countries p img {
+	padding-left: 5px;
+}
+#countries .countries_ul{
+	display:none;
+	z-index: 10000;
+	padding:10px;
+	list-style-type:none;
+}
+#countries .countries_ul_hover{
+	display:block;
+	z-index: 5000;
+	position:absolute;
+	right:0px;
+	padding:5px 10px;
+	height:auto;
+	width:20px;
+}
