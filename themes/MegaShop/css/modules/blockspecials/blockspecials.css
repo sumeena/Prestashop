@@ -1,0 +1,31 @@
+/* Block specials */
+#special_block_right p {
+	padding-bottom:0;
+}
+#special_block_right .block_content{text-align:center;}
+#special_block_right .product_image {position:relative; margin:0 0 8px;}
+#special_block_right .prod_name {display:block; margin:0 0 6px;}
+#special_block_right .prod_name:hover{color:#105BD5; text-decoration:none;}
+
+#special_block_right span.price-discount {text-decoration:line-through; display:inline;}
+#special_block_right span.reduction {
+	background:url("../../../img/custom/tagbg1.png") no-repeat scroll 0 0 transparent;
+	position:absolute;
+	left:0;
+	top:0;
+	display:block;
+	color:#fff;
+	font-weight:bold;
+	height:45px;
+	width:45px;
+}
+#special_block_right span.reduction span {
+	display:block;
+	padding:14px 0 0 0;
+}
+#special_block_right .price-content{margin:0 0 8px;}
+#special_block_right span.price {
+	display:inline;
+	padding:0 7px 0 0;
+	font-size:16px;
+}

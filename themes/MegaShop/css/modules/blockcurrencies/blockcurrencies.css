@@ -1,0 +1,73 @@
+/* block top currencies */
+#currencies_block_top {
+    position: absolute;
+    z-index:4;
+}
+#currencies_block_top p {
+/*    background:url("../../../img/custom/bullet2.gif") no-repeat scroll right 8px transparent;*/
+    position: relative;
+    float: left;
+    color: #FFFFFF;
+   padding: 0px 12px 3px 0px;
+}
+
+#currencies_block_top ul#first-currencies li { 
+    padding: 3px 9px;
+    background: none repeat scroll 0 0 #000000;
+}
+#currencies_block_top ul#first-currencies li a{text-decoration:none; color:#fff;}
+#currencies_block_top ul#first-currencies li.selected a{color:#fff; text-decoration: none;}
+#currencies_block_top .currencies_ul{
+    background:none repeat scroll 0 0 #000000;
+    display:none;
+    list-style-type:none;
+    padding: 5px 0;
+    width:60px;
+}
+#currencies_block_top .currencies_ul_hover{
+    display:block;
+    position:absolute;
+    right:0;
+}
+.currencies_ul_hover li:hover
+{
+     background:none repeat scroll 0 0 #0088CC!important;
+}
+.styled-select {
+    background: url("../../../img/custom/dropdown_arrow.png") no-repeat scroll right center transparent;
+    overflow: hidden;
+    width: 79px;
+}
+
+.styled-select select {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: news_gothic_tmedium;
+    font-size: 14px;
+    line-height: 1;
+    width: 110px;
+}
+.styled-select select option {
+    background: none repeat scroll 0 0 #000000;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    outline: medium none;
+}
+.curency
+{
+    padding: 0px!important;
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: news_gothic_tmedium;
+    font-size: 14px;
+    line-height: 1;
+    width: 110px;
+}

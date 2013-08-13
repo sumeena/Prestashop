@@ -1,0 +1,53 @@
+/* Mega Menu Styles */
+
+@media only screen and (min-width: 998px) {
+	#tptntopmenu{display:none;}
+}
+
+@media only screen and (max-width: 997px) {
+#tptntopmenu{
+	position:absolute;
+	width:100%;
+	left:0;
+	z-index:3;
+}
+#tptntopmenu .tptnresp-title{
+    border-radius:0 0 5px 5px;
+    color: #FFFFFF;
+    font-family: MyFont;
+    font-size: 14px;
+	padding:12px 10px;
+}
+#tptntopmenu .tglr{
+	background: url("../../../../img/custom/plus-white.png") no-repeat scroll center center transparent;
+    padding:12px;
+	float:right;
+	height:19px;
+	width:19px;
+}
+#tptntopmenu.toggle .tglr{
+	background: url("../../../../img/custom/minus-white.png") no-repeat scroll center center transparent;
+}
+
+.tptnmegamenu, .tptnmegamenu ul{list-style: none;}
+.tptnmegamenu{
+	display:none;
+}
+.tptnmegamenu a {
+	padding:10px;
+	display: block;
+}
+.tptnmegamenu a:hover {text-decoration:none;}
+.tptnmegamenu ul li a {padding-left:20px;}
+.tptnmegamenu ul ul li a {padding-left:30px;}
+.tptnmegamenu .tptnresp-icon {
+	background: url("../../../../img/custom/plus.png") no-repeat scroll left bottom transparent;
+    padding: 12px 10px 0 0;
+	float:right;
+	height:12px;
+	width:12px;
+}
+.tptnmegamenu .tptnresp-icon.active {background: url("../../../../img/custom/minus.png") no-repeat scroll left bottom transparent;}
+
+}
+

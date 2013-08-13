@@ -1,0 +1,41 @@
+/* Block newsletter */
+#footer #newsletter_block_footer {padding-right:0;}
+#newsletter_block_footer .title_block{}
+#newsletter_block_footer li{overflow:hidden;}
+#newsletter_block_footer p {padding:8px 0 0; font-weight: bold;}
+#newsletter_block_footer p.success_inline {color: #418B19;}
+#newsletter_block_footer p.warning_inline {color: #DA0F00;}
+#newsletter_block_footer .inputNew {padding:8px; float:left; border-radius:3px 0 0 3px;}
+#newsletter_block_footer .button_mini {
+	float:left;
+	border-radius:0 3px 3px 0;
+    padding:7px;
+}
+#newsletter_block_footer .button_mini:hover {}
+
+#newsletter_block_footer .button_mini {
+    background: url("../../../img/custom/subBtn.jpg") no-repeat scroll 0 0 transparent;
+    border-radius: 0 3px 3px 0;
+    float: left;
+    font-size: 0;
+    height: 27px;
+    padding: 7px;
+    width: 29px;
+}
+#newsletter_block_footer .inputNew {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #DCDCDC 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    float: left;
+    font-family: news_gothic_tmedium;
+    font-size: 13px;
+    height: 18px;
+    line-height: 16px;
+    padding: 2px 7px 7px;
+    width: 232px;
+}
+#newsletter_block_footer {
+    float: left;
+    width: 304px!important;
+}
