@@ -172,5 +172,8 @@ var img_dir = '{$img_dir}';
 	</div>
 	</div>
 </div>
+                <div calss="test" >
+                  testing this project
+                </div>
 <!-- /MODULE Block cart -->
 
